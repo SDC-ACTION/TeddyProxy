@@ -1,4 +1,4 @@
-const { Router } = require('express');
+require('newrelic');
 const express = require('express');
 const path = require('path');
 const app = express();
