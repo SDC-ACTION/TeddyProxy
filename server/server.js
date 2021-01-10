@@ -8,7 +8,7 @@ const PORT = 3000;
 app.use('/', express.static(path.join(__dirname, '../public')));
 
 app.use('/api', createProxyMiddleware({
-  target: 'http://localhost:3004'
+  target: 'http://54.219.195.213:3004/'
 }))
 
 app.listen(PORT, () => {
