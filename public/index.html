@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>FEC demo</title>
+  <title>SDC demo</title>
   <link rel="stylesheet" href="/styles.css">
 </head>
 
@@ -34,42 +34,21 @@
     </div>
   </div>
   <div id="productInfoTop">
-    <img
-      src="https://mybundlefile.s3.us-east-2.amazonaws.com/Screen+Shot+2020-11-06+at+7.51.55+PM.png" id="topInfoStatic" alt="conectFour">
   </div>
   <div id="container">
     <div id='productImagesService'></div>
-    <div id='product-information'></div>
-    <!-- <div id="app">
-      <ul>
-        <li>
-          <span>Classic Connect 4 game is disc dropping fun</span>
-        </li>
-        <li>
-          <span>Choose yellow or red discs. For 2 players</span>
-        </li>
-        <li>
-          <span>When you get 4 discs in a row you win</span>
-        </li>
-        <li>
-          <span>Includes grid, 2 legs, slider bar, 21 red discs, 21 yellow discs and instructions</span>
-        </li>
-      </ul>
-    </div> -->
+    <div id='product-information'>
+      <div id='title'></div>
+      <div id='description'></div>
+      <div id='specs'></div>
+    </div>
     <div id="price-card"></div>
   </div>
   <div id="productSpecification">
-    <img
-      src="https://mybundlefile.s3.us-east-2.amazonaws.com/Screen+Shot+2020-11-06+at+7.56.29+PM.png" id="specificationStatic" alt="conectFourSpec">
   </div>
   <div id="reviews-service"></div>
-  <script src='http://localhost:3004/bundle-product-information-service.js'></script>
-  <!-- <script src='http://54.219.195.213:3004/bundle-product-information-service.js'></script> -->
-  <!-- <script src="https://bundlefile.s3.us-east-2.amazonaws.com/bundle-product-information-service.js"></script>
-  <script src="http://18.220.123.159/bundle-seller-catalog.js"></script>
-  <script src="https://teamstructureshopping.s3.amazonaws.com/bundle/bundle-images-service.js"></script> -->
-  <!-- <script src="https://mybundlefile.s3.us-east-2.amazonaws.com/bundle-seller-catalog.js"></script> -->
-  <!-- <script src="https://rpt23-reviews-service.s3.us-east-2.amazonaws.com/bundle-reviews-service.js"></script> -->
+  <script src='http://localhost:3004/description.js'></script>
+  <script src='http://localhost:3004/specs.js'></script>
+  <script src='http://localhost:3004/title.js'></script>
 </body>
-
 </html>

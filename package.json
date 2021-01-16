@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node server/server.js",
+    "start-dev": "nodemon server/server.js",
     "dev": "nodemon server/server.js",
     "lint": "eslint . --ext .js"
   },
@@ -19,13 +20,16 @@
   },
   "homepage": "https://github.com/Team-Structure/proxy-server-AB#readme",
   "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "http-proxy-middleware": "^1.0.6",
     "newrelic": "^7.0.2",
     "nodemon": "^2.0.6",
     "path": "^0.12.7",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "redis": "^3.0.2"
   },
   "devDependencies": {
     "eslint": "^7.11.0",
